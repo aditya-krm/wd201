@@ -87,10 +87,12 @@ console.log("My Todo-list\n");
 console.log("Overdue");
 let overdueList = todoManager.overdueTasks();
 console.log(todoManager.formatTaskList(overdueList));
+console.log("\n");
 
 console.log("\nDue Today");
 let todayList = todoManager.tasksDueToday();
 console.log(todoManager.formatTaskList(todayList));
+console.log("\n");
 
 console.log("\nDue Later");
 let laterList = todoManager.tasksDueLater();
