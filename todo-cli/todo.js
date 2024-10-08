@@ -82,9 +82,9 @@ todoManager.addTask({
   completed: false,
 });
 
-console.log("My Task List\n");
+console.log("My Todo-list\n");
 
-console.log("Overdue Tasks");
+console.log("Overdue");
 let overdueList = todoManager.overdueTasks();
 console.log(todoManager.formatTaskList(overdueList));
 
